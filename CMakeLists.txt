@@ -20,6 +20,9 @@ ament_target_dependencies(create_orientation rclcpp std_msgs geometry_msgs)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+install(DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME})
+
 install(TARGETS
   create_point
   create_orientation

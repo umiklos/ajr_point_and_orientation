@@ -27,6 +27,7 @@ class CreateOrientation : public rclcpp::Node
             pose->orientation.z = 0.0;
             pose->orientation.w = 1.0;
             orientation_pub->publish(*pose);
+            RCLCPP_INFO(this->get_logger(), "Publishing orientation");
         }
         rclcpp::Publisher<geometry_msgs::msg::Pose>::SharedPtr orientation_pub;
         rclcpp::Subscription<geometry_msgs::msg::Point>::SharedPtr subscription_;
