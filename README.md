@@ -1,4 +1,4 @@
-# ajr_point_and_orientation
+# ung_isl_ajr_point_and_orientation
 
 ROS 2 C++ package.  [![Static Badge](https://img.shields.io/badge/ROS_2-Humble-34aec5)](https://docs.ros.org/en/humble/)
 ## Packages and build
@@ -10,7 +10,7 @@ It is assumed that the workspace is `~/ros2_ws/`.
 cd ~/ros2_ws/src
 ```
 ``` r
-git clone https://github.com/https://github.com/umiklos/ajr_point_and_orientation
+git clone https://github.com/https://github.com/umiklos/ung_isl_ajr_point_and_orientation
 ```
 
 ### Build ROS 2 packages
