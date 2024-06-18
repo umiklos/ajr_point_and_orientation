@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>ajr_point_and_orientation</name>
+  <name>ung_isl_ajr_point_and_orientation</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
   <maintainer email="ungermiklos1992@gmail.com">miki</maintainer>
