@@ -18,7 +18,7 @@ git clone https://github.com/https://github.com/umiklos/ajr_point_and_orientatio
 cd ~/ros2_ws
 ```
 ``` r
-colcon build --packages-select ajr_point_and_orientation --symlink-install
+colcon build --packages-select ung_isl_ajr_point_and_orientation --symlink-install
 ```
 
 <details>
@@ -31,11 +31,11 @@ source ~/ros2_ws/install/setup.bash
 
 
 ``` r
-ros2 run ajr_point_and_orientation create_point 
+ros2 run ung_isl_ajr_point_and_orientation create_point 
 ```
 
 ``` r
-ros2 run ajr_point_and_orientation create_orientation
+ros2 run ung_isl_ajr_point_and_orientation create_orientation
 ```
 ## Graph
 
